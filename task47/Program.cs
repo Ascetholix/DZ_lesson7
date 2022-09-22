@@ -24,7 +24,7 @@ void FillArray(double[,] arg)
         for (int j = 0; j < arg.GetLength(1); j++)
         {
             arg[i, j] = new Random().Next(-99, 100);
-            arg[i, j] = arg[i, j] / 10;
+            arg[i, j] = arg[i, j] / 10; // заполнениие вышественными числами
         }
     }
 }
