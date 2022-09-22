@@ -38,7 +38,6 @@ void AverageArray(double[,] arg)
         for (int j = 0; j < arg.GetLength(1); j++)
         {
             c = c + arg[i, j];
-            b = 0;
         }
         b = 0;
         b = c / arg.GetLength(0);
