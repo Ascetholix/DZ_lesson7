@@ -29,7 +29,7 @@ void FillArray(int[,] arg)
         }
     }
 }
-void SearchPosishion(int[,] arg, int rows, int colums)
+void SearchPosishion(int[,] arg, int rows, int colums)  // Поиск элемента позиции
 {
     if (arg.GetLength(0) > rows && arg.GetLength(1) > colums)
     {

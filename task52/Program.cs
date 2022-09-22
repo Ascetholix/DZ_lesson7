@@ -31,8 +31,8 @@ void FillArray(double[,] arg)
 
 void AverageArray(double[,] arg)
 {
-    double c = 0;
-    double b = 0;
+    double c = 0; // Вспомогательные переменные
+    double b = 0; //
     for (int i = 0; i < arg.GetLength(0); i++)
     {
         for (int j = 0; j < arg.GetLength(1); j++)
